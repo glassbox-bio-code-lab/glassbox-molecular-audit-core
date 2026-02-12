@@ -1,13 +1,20 @@
-<img
+<p align="center">
+  <img
     src="https://res.cloudinary.com/dpaosk5m5/image/upload/v1770865259/gbx_bio_logo_vpnsjd.png"
     alt="Glassbox Bio"
-    width="520"  
-/>
+    width="520"
+  />
+</p>
+
+<br/>
+
 
 
 # Glassbox Bio Target Diligence Core   
 Google Cloud Marketplace Deployment Bundle (Helm chart + schema + examples)
 
+<br/>
+<br/>
 
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
@@ -15,6 +22,8 @@ Google Cloud Marketplace Deployment Bundle (Helm chart + schema + examples)
 ![Helm](https://img.shields.io/badge/Helm-supported-0F1689)
 
 
+<br/>
+<br/>
 
 ## Scope of this Repository
 This repository contains the public configuration, documentation, and examples
@@ -27,6 +36,8 @@ It does **not** contain:
 - Internal datasets or knowledge graphs
 - Customer-specific configuration
 
+<br/>
+<br/>
 
 
 
@@ -36,6 +47,8 @@ It does **not** contain:
 - `manifest/` - Marketplace deployment bundle (Helm chart, schema, Application CR).
 - `docs/` - User guide, operations guide, and verification notes.
 - `examples/` - Sample values files and CLI commands.
+<br/>
+<br/>
 
 ## Quick start
 
@@ -46,15 +59,22 @@ Deploy directly from Google Cloud Marketplace:
 https://console.cloud.google.com/marketplace/product/glassbox-bio/molecular-audit-core
 The Marketplace UI handles image wiring and configuration values.
 
+<br/>
+<br/>
+
 ### CLI (helm)
 
 We officially support three opinionated deployment profiles. Choose one:
+<br/>
+<br/>
 
 | Profile               | Expected runtime range | Rough cost range | Required cluster resources                      | When to use it                                                      |
 | --------------------- | ---------------------- | ---------------- | ----------------------------------------------- | ------------------------------------------------------------------- |
 | Starter (CPU)         | 1–4h (cap 4h)          | $$               | 1–2 vCPU, 4–8Gi RAM, 20Gi PVC                   | Fast validation runs, smallest datasets, cost-sensitive trials      |
 | Standard (CPU)        | 2–6h (cap 6h)          | $$$              | 2–4 vCPU, 8–16Gi RAM, 50Gi PVC                  | Default choice for most audits; balanced speed vs cost              |
 | Deep / GPU (optional) | 4–8h (cap 8h)          | $$$$             | 4–8 vCPU, 32–64Gi RAM, 1x NVIDIA GPU, 200Gi PVC | Deep evidence expansion, docking-heavy or GPU-accelerated workflows |
+<br/>
+<br/>
 
 ```bash
 helm upgrade --install molecular-audit-core ./manifest/chart \
@@ -69,17 +89,25 @@ helm upgrade --install molecular-audit-core ./manifest/chart \
   --set console.image.tag=1.0.0 \
   --set config.projectId=YOUR_PROJECT_ID
 ```
+<br/>
+<br/>
 
 For the full runbook and verification flow, see `docs/RUNBOOK_CUSTOMER.md`.
+<br/>
+<br/>
 
 ## Marketplace Architecture (V1)
 
 ![Marketplace Architecture V1](docs/marketplace_architecture_v1.png)
+<br/>
+<br/>
 
 ## System Architecture (Detailed)
 
 ![System Architecture](docs/architecture_v1.png)
 
+<br/>
+<br/>
 
 
 
@@ -92,7 +120,11 @@ For the full runbook and verification flow, see `docs/RUNBOOK_CUSTOMER.md`.
 
 
 
----
+---<br/>
+<br/>
+<br/>
+<br/>
+
 
 ## Glassbox Bio Target Diligence Core
 Deployment bundle provided here contains configuration and public artifacts only.
@@ -100,6 +132,7 @@ Deployment bundle provided here contains configuration and public artifacts only
 For full product information, methodology, and security documentation:
 
 👉 https://www.glassbox-bio.com
+
 
 
 
