@@ -1,4 +1,12 @@
-# Glassbox Bio Molecular Audit - Marketplace Bundle
+# Glassbox Bio Target Diligence Core
+Google Cloud Marketplace Deployment Bundle
+
+
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+![Marketplace](https://img.shields.io/badge/Google%20Cloud-Marketplace-4285F4)
+![Helm](https://img.shields.io/badge/Helm-supported-0F1689)
+
+
 
 This repository contains the public configuration, documentation, and examples
 required to distribute the Glassbox Bio Molecular Audit Kubernetes app on
@@ -14,8 +22,10 @@ Google Cloud Marketplace.
 
 ### Marketplace (one-click)
 
-Deploy directly from Google Cloud Marketplace. (link) The Marketplace UI handles
-image wiring and configuration values.
+Deploy directly from Google Cloud Marketplace:
+
+https://console.cloud.google.com/marketplace/product/glassbox-bio/molecular-audit-core
+The Marketplace UI handles image wiring and configuration values.
 
 ### CLI (helm)
 
@@ -42,3 +52,22 @@ helm upgrade --install molecular-audit-core ./manifest/chart \
 ```
 
 For the full runbook and verification flow, see `docs/RUNBOOK_CUSTOMER.md`.
+
+
+## Scope of this Repository
+
+This repository contains the public deployment bundle and configuration artifacts required to deploy Glassbox Bio Molecular Audit via Google Cloud Marketplace.
+
+It does **not** contain:
+- Proprietary audit logic or scoring models
+- Computational analysis modules
+- Internal datasets or knowledge graphs
+- Customer-specific configuration
+
+
+## Security Model
+
+- Images are pulled from Google Artifact Registry.
+- Customer data remains within the customer's GCP project.
+- No audit data is transmitted outside the configured environment.
+- Optional Workload Identity integration supported.
