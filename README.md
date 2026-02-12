@@ -1,11 +1,9 @@
-<p 
-  <img
+<img
     src="https://res.cloudinary.com/dpaosk5m5/image/upload/v1770865259/gbx_bio_logo_vpnsjd.png"
     alt="Glassbox Bio"
-    width="520"
-  <br/>
-  
-</p>
+    width="520"  
+/>
+
 
 # Glassbox Bio Target Diligence Core   
 # Google Cloud Marketplace Deployment Bundle (Helm chart + schema + examples)
@@ -102,6 +100,7 @@ Deployment bundle provided here contains configuration and public artifacts only
 For full product information, methodology, and security documentation:
 
 👉 https://www.glassbox-bio.com
+
 
 
 
