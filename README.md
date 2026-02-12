@@ -84,4 +84,12 @@ For the full runbook and verification flow, see `docs/RUNBOOK_CUSTOMER.md`.
 
 
 
-Visit 
+---
+
+## Glassbox Bio Target Diligence Core
+Deployment bundle provided here contains configuration and public artifacts only.
+
+For full product information, methodology, and security documentation:
+
+👉 https://www.glassbox-bio.com
+
