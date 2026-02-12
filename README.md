@@ -1,5 +1,16 @@
-# Glassbox Bio Target Diligence Core
-Google Cloud Marketplace Deployment Bundle
+
+<p align="center">
+  <img
+    src="https://res.cloudinary.com/dpaosk5m5/image/upload/v1770865259/gbx_bio_logo_vpnsjd.png"
+    alt="Glassbox Bio"
+    width="520"
+  />
+  <br/>
+  <span>Glassbox Bio Target Diligence Core 
+  <br/>
+    Google Cloud Marketplace Deployment Bundle (Helm chart + schema + examples)</span>
+</p>
+
 
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
@@ -92,4 +103,5 @@ Deployment bundle provided here contains configuration and public artifacts only
 For full product information, methodology, and security documentation:
 
 👉 https://www.glassbox-bio.com
+
 
