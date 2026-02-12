@@ -118,6 +118,16 @@ For the full runbook and verification flow, see `docs/RUNBOOK_CUSTOMER.md`.
 
 <br/>
 <br/>
+
+## Cryptographic Provenance Seal Completed audit runs may include a dual-channel, tamper-evident provenance seal. ![Cryptographic Provenance Seal](docs/provenance_seal.png) ### Verification Each seal can be independently verified: https://verify.glassbox-bio.com
+**Seal Model**
+
+- Signing key: Google Cloud KMS (private)
+- Hashing: SHA-256
+- Verification: Public verification endpoint
+- Data boundary: Customer data does not egress; verification transmits metadata only
+
+
 <br/>
 <br/>
 
@@ -128,6 +138,7 @@ Deployment bundle provided here contains configuration and public artifacts only
 For full product information, methodology, and security documentation:
 
 👉 https://www.glassbox-bio.com
+
 
 
 
