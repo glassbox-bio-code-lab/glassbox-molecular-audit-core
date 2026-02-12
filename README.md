@@ -4,7 +4,7 @@
     alt="Glassbox Bio"
     width="520"
   <br/>
-  />
+  
 </p>
 
 # Glassbox Bio Target Diligence Core   
@@ -102,6 +102,7 @@ Deployment bundle provided here contains configuration and public artifacts only
 For full product information, methodology, and security documentation:
 
 👉 https://www.glassbox-bio.com
+
 
 
 
